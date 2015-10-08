@@ -8,7 +8,8 @@ tw_usr_tmln <- function(screen_name, max_id="", count=200, key, secret){
   }
   twitter_get(
     path="statuses/user_timeline.json",
-    param = param
+    param = param,
+    key, secret
   )
 }
 
