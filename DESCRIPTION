@@ -1,4 +1,4 @@
-Package: rtwitterlight
+Package: twitterlight
 Type: Package
 Title: A light weight, function oriented interface to the Twitter API
 Version: 0.1.0.90000
