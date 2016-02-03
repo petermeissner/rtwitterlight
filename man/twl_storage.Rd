@@ -4,13 +4,16 @@
 \name{twl_storage}
 \alias{twl_storage}
 \title{Package storage for session specific information like credentials}
-\format{\preformatted{<environment: 0x4471970> 
+\format{\preformatted{<environment: 0x295aa70> 
 }}
 \usage{
 twl_storage
 }
 \description{
 Package storage for session specific information like credentials
+}
+\seealso{
+\link{twl_token}, \link{twl_set_credetnials}, \link{twl_reset_credetnials}
 }
 \keyword{datasets}
 

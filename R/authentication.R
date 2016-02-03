@@ -44,7 +44,7 @@ twl_set_credentials <- function(key, secret){
 
 #' function for resetting credentials set in session storage
 #' @seealso \link{twl_set_credentials}
-twl_reset_credetnials <- function(){
+twl_reset_credentials <- function(){
   twl_set_credentials("","")
 }
 
