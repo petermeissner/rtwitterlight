@@ -1,3 +1,4 @@
+#' function for getting the twitter user timeline
 tw_usr_tmln <- function(screen_name, max_id="", count=200, key, secret){
   param= list(
     screen_name = screen_name,
@@ -13,7 +14,7 @@ tw_usr_tmln <- function(screen_name, max_id="", count=200, key, secret){
   )
 }
 
-
+#' function for getting the twitter user timeline
 tw_user_timeline <- function(screen_name, n=1, key="", secret=""){
   n_loops <- ceiling(n/199)
   tweets  <- list()
